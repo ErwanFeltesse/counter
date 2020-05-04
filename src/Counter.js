@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function Counter() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState('');
 
   function handleChange(event){
     const newCount = event.target.value
